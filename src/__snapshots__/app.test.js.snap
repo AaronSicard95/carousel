@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snap 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="Carousel"
+    >
+      <h1>
+        Shells from far-away beaches
+      </h1>
+      <div
+        class="Carousel-main"
+      >
+        <i
+          class="bi bi-arrow-left-circle"
+          id="larrow"
+        />
+        <div
+          class="Card"
+        >
+          <h4
+            class="Card-title"
+          >
+            Photo by Richard Pasquarella on Unsplash
+          </h4>
+          <img
+            alt="Photo by Richard Pasquarella on Unsplash"
+            class="Card-image"
+            src="image1.jpg"
+          />
+          <small
+            class="Card-small"
+          >
+            Image 1 of 3.
+          </small>
+        </div>
+        <i
+          class="bi bi-arrow-right-circle"
+          data-testid="1"
+          id="rarrow"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`match snap 2`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="Carousel"
+    >
+      <h1>
+        Shells from far-away beaches
+      </h1>
+      <div
+        class="Carousel-main"
+      >
+        <i
+          class="bi bi-arrow-left-circle"
+          id="larrow"
+        />
+        <div
+          class="Card"
+        >
+          <h4
+            class="Card-title"
+          >
+            Photo by Pratik Patel on Unsplash
+          </h4>
+          <img
+            alt="Photo by Pratik Patel on Unsplash"
+            class="Card-image"
+            src="image2.jpg"
+          />
+          <small
+            class="Card-small"
+          >
+            Image 2 of 3.
+          </small>
+        </div>
+        <i
+          class="hidden"
+          data-testid="1"
+          id="rarrow"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
